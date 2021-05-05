@@ -1,9 +1,9 @@
-#' Quickly open a data frame in a formatted spreadsheet
+#' Show data in spreadsheet
 #' `r lifecycle::badge("experimental")`
 #'
 #' Quickly inspect your data in a spreadsheet with auto-filters an all columns formatted as numbers. Currently, this is a very tight definition of a helper function. More flexibility is planned in the future.
 #'
-#' @param data a `data frame`, a `tibble` or any other object as defined in `?openxlsx::writeData()`.
+#' @param data a `data.frame`, a `tibble` or any other object as defined in `?openxlsx::writeData()`.
 #'
 #' @author Harald Kaba (2021)
 #' @references A wrapper around the brilliant R package `openxlsx`:

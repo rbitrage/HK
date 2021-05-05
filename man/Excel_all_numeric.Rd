@@ -2,13 +2,13 @@
 % Please edit documentation in R/show_Excel_num.R
 \name{Excel_all_numeric}
 \alias{Excel_all_numeric}
-\title{Quickly open a data frame in a formatted spreadsheet
+\title{Show data in spreadsheet
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 Excel_all_numeric(data)
 }
 \arguments{
-\item{data}{a \verb{data frame}, a \code{tibble} or any other object as defined in \code{?openxlsx::writeData()}.}
+\item{data}{a \code{data.frame}, a \code{tibble} or any other object as defined in \code{?openxlsx::writeData()}.}
 }
 \value{
 This function is called for its side-effect of opening a spreadsheet.
