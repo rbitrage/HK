@@ -2,7 +2,8 @@
 % Please edit documentation in R/show_Excel_num.R
 \name{Excel_all_numeric}
 \alias{Excel_all_numeric}
-\title{Quickly open a data frame in a formatted spreadsheet}
+\title{Quickly open a data frame in a formatted spreadsheet
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}}
 \usage{
 Excel_all_numeric(data)
 }
