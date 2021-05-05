@@ -14,6 +14,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
+    lifecycle,
     openxlsx
 URL: https://github.com/rbitrage/HK
 BugReports: https://github.com/rbitrage/HK/issues
