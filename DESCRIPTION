@@ -1,16 +1,17 @@
 Package: HK
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Hot Keys to functions
+Version: 0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person("Harald", "Kaba",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "rbitrage@economix.at")
+Description: Hot Keys aims to be the fastes way to access functions. Hitting HK:: 
+    makes all its functions available - no need to load HK. See the index for a 
+    growing number of hot keys.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    openxlsx
