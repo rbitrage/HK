@@ -2,12 +2,13 @@ Package: HK
 Title: Hot Keys to functions
 Version: 0.0.0.9000
 Authors@R: 
-    person("Harald", "Kaba",
+    person(given = "Harald",
+           family = "Kaba",
            role = c("aut", "cre"),
            email = "rbitrage@economix.at")
-Description: Hot Keys aims to be the fastes way to access functions. Hitting HK:: 
-    makes all its functions available - no need to load HK. See the index for a 
-    growing number of hot keys.
+Description: Hot Keys (HK) aims to be the fastest way to access functions. Hitting
+    HK:: makes all its functions available - no need for library(HK). See the index 
+    for a growing number of hot keys.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
