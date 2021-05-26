@@ -1,6 +1,6 @@
 Package: HK
 Title: Hot Keys to functions
-Version: 0.1.0
+Version: 0.0.0.9000
 Authors@R: 
     person("Harald", "Kaba",
            role = c("aut", "cre"),
