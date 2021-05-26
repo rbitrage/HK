@@ -17,7 +17,8 @@
 #' Excel_show_numeric(WorldPhones) # but ignores row names (e.g. from arrays)}
 Excel_show_numeric <- function(data) {
   workbook <-
-    openxlsx::createWorkbook(creator = paste0("HK_", packageVersion("HK")))
+    openxlsx::createWorkbook(
+      creator = paste0("HK_", utils::packageVersion("HK")))
   openxlsx::addWorksheet(wb = workbook,
                          sheetName = deparse(substitute(data)))
   openxlsx::writeData(wb = workbook,
