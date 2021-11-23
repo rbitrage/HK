@@ -2,3 +2,4 @@
 
 export(Excel_show_numeric)
 export(Excel_write_numeric)
+export(what)
