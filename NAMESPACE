@@ -3,4 +3,8 @@
 export(Excel_show_numeric)
 export(Excel_write_numeric)
 export(hist)
+export(piano)
 export(what)
+importFrom(stats,density)
+importFrom(stats,dnorm)
+importFrom(stats,sd)
