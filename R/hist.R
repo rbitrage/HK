@@ -9,6 +9,7 @@
 #' @return
 #' Histogram
 #' @export
+#' @importFrom stats density dnorm sd
 #'
 #' @examples
 #' hist(data = mtcars, plot_x = "wt")
